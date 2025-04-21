@@ -91,7 +91,7 @@ img::selection {
 }
 
 .banner_section {
-    background-image: url('images/bg4.jpg');
+    background-image: url('images/bg6.png');
     background-size: cover;
     padding-top: 210px;
     font-size: 120%;
@@ -453,7 +453,7 @@ img::selection {
 }
 
 .footerSection {
-    background-image: url('images/footer-0c9e754374e6bfe988239622ae1175bb.png');
+    background-image: url('images/foot.png');
     background-size: cover;
     z-index: 1;
     padding: 120px 0;
