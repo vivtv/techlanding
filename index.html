@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang='en'>
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
+    <!-- Bootstrap CSS -->
+    <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css'
+        integrity='sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO' crossorigin='anonymous'>
+    <link href="owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,800&display=swap&subset=latin-ext"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Vienna Flow</title>
+</head>
+
+<body>
+    <header id="header" class="header fixed-top">
+
+        <div class="container">
+            <div class="logo float-left">
+                <a class="navbar-brand" href="#"><img id="headerImg" class="img-fluid navbar-brand header__logo"
+                        src="images/logo-white-512a641e90600644922a2327e20c5067.png" alt=""></a>
+            </div>
+
+            <nav class="navbar navbar-expand-lg float-right d-none d-lg-inline-flex main-nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="#contacts">Contacts</a>
+                    </li>
+                </ul>
+                            <div class="dropdown">
+                                <a class="btn pink-btn text-white ml-md-4 px-3 font-weight-bold rounded-pill" role="button"
+                                    id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span class="caret">English</span>
+                                </a>
+    
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" href="#">English</a>
+                                    <a class="dropdown-item" href="#">German</a>
+                                </div>
+                            </div>
+
+                        </div>
+            </nav>
+
+
+        </div>
+    </header>
+    <section class="banner_section">
+        <div class="container text-white">
+            <div class="col-12 col-md-10 col-lg-8 col-lg-5 p-0 text-end">
+                <h2 class="banner_section__h2 font-weight-bold mb-sm-4">
+                    Smart Metro Tracking for Smarter Travel in Vienna.
+                </h2>
+    
+                <p class="col-10 col-md-8 p-0">Get live metro updates, arrival times, and route details instantly, ensuring a seamless travel experience.</p>
+                <div class="mt-5 mb-4">
+                    <button type="button" class="btn btn-success font-weight-bolder px-5 py-3">Learn More</button>
+                    <!-- my own btn-transparent -->
+                    <button type="button"
+                    class="btn btn-transparent font-weight-bold text-white d-inline-flex pl-0 pl-md-2 ml-md-2"
+                    onclick="window.location.href='https://app.viennaflow.at/'">
+                    Experience ViennaFlow
+                    <svg class="flaticon-next ml-2" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 31.49 31.49"
+                        style="enable-background:new 0 0 31.49 31.49;" xml:space="preserve">
+                        <path d="M21.205,5.007c-0.429-0.444-1.143-0.444-1.587,0c-0.429,0.429-0.429,1.143,0,1.571l8.047,8.047H1.111
+                            C0.492,14.626,0,15.118,0,15.737c0,0.619,0.492,1.127,1.111,1.127h26.554l-8.047,8.032c-0.429,0.444-0.429,1.159,0,1.587
+                            c0.444,0.444,1.159,0.444,1.587,0l9.952-9.952c0.444-0.429,0.444-1.143,0-1.571L21.205,5.007z" />
+                    </svg>
+                </button>                
+                </div>
+            </div>
+        </div>
+        <img src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSLDkcOrw67DqV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAxNjAwIDMzOC45IiB4bWw6c3BhY2U9InByZXNlcnZlIj48c3R5bGUvPjxwYXRoIGQ9Ik0xNTk5LjkgMjQ1LjFjLTUxLjkgMTMuMi0xMDAuNyAzNC0xNDcuOSA1OS0yMSAxMS4xLTQyLjEgMjIuMS02NS40IDI3LjgtMzIuMSA3LjktNjMuOCA2LjYtOTUuMS0zLjgtMTguNS02LjItMzUuMy0xNS44LTUxLjgtMjYuMS0xNS05LjQtMzAuMS0xOC43LTQ1LjMtMjcuNy0yMi4zLTEzLjItNDYuNy0xOS44LTcyLjMtMjIuMS0yMS42LTItNDMuMi0yLjgtNjQuOS0xLTIwLjMgMS43LTQwLjUgNC40LTYwLjcgNy4xLTM5LjIgNS4yLTc4LjMgMTEuMS0xMTcuOCAxMi0yNC43LjYtNDkuMi0xLTczLjEtNy44LTI5LTguMi01MC42LTI2LjUtNjguMS01MC41LTEyLjItMTYuNy0yMy4zLTM0LjMtMzYuMS01MC41LTIwLjQtMjUuNy00NS42LTQ0LjgtNzUuOS01Ny4zLTI4LjItMTEuNi01Ny41LTE3LTg3LjgtMTguNS0zMi43LTEuNi02NS4yIDEuMi05Ny44IDMuMi0yMyAxLjUtNDYgMy02OS4xIDQuNC0yNC43IDEuNi00OS41IDIuMS03NC4yIDIuNi0yNy4zLjYtNTMuMS01LjgtNzguMy0xNS40LTM2LjctMTMuOS03Mi0zMS4zLTEwOC40LTQ1LjlDNzQuNiAyMC40IDM4LjcgOC43IDEuOC4xIDEuMi0uMS42IDAgLjEgMGMwIDE0NCAwIDE5MS0uMSAzMzUgMCAzIC40IDQgMy44IDQgNTMwLjgtLjEgMTA2MS42LS4xIDE1OTIuNCAwIDMuMyAwIDMuOC0uOCAzLjgtMy45LS4xLTYyLjQtLjEtMjcuNy0uMS05MHoiIGZpbGw9IiNmZmYiLz48L3N2Zz4="
+            alt="banner background">
+    </section>
+    <section id="testimonials" class="section-bg">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <div class="owl-one owl-carousel testimonials-carousel wow fadeInUp">
+
+                        <div class="testimonial-item">
+                            <p class="testimonial-quote text-slate mb-md-4">
+                                Impressed with master class support of the team and really look forward for the future.
+                            </p>
+                            <div class="testimonial-person">
+                                <img src="images/author-4-c976c6c3de011c3117c66c7c99cddee6.jpg" class="testimonial-img"
+                                    alt="reviewer-image-1">
+                                <h3 class="text-slate-dark">Saul Goodman</h3>
+                                <h4 class="text-slate font-weight-normal">Ceo &amp; Founder</h4>
+                            </div>
+
+                        </div>
+
+                        <div class="testimonial-item">
+                            <p class="testimonial-quote text-slate">
+                                Best working experience with this amazing team &amp; in future, we want to work together
+                            </p>
+                            <div class="testimonial-person">
+                                <img src="images/author-4-c976c6c3de011c3117c66c7c99cddee6.jpg" class="testimonial-img"
+                                    alt="reviewer-image-1">
+                                <h3 class="text-slate-dark">Saul Goodman</h3>
+                                <h4 class="text-slate font-weight-normal">Ceo &amp; Founder</h4>
+                            </div>
+
+                        </div>
+
+                        <div class="testimonial-item">
+                            <p class="testimonial-quote text-slate">
+                                Impressed with master class support of the team and really look forward for the future.
+                            </p>
+                            <div class="testimonial-person">
+                                <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4QlQaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA1LjYtYzEzOCA3OS4xNTk4MjQsIDIwMTYvMDkvMTQtMDE6MDk6MDEgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiLz4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8P3hwYWNrZXQgZW5kPSJ3Ij8+/+0ALFBob3Rvc2hvcCAzLjAAOEJJTQQlAAAAAAAQ1B2M2Y8AsgTpgAmY7PhCfv/uAA5BZG9iZQBkwAAAAAH/2wCEAAMDAwMDAwQEBAQFBQUFBQcHBgYHBwsICQgJCAsRCwwLCwwLEQ8SDw4PEg8bFRMTFRsfGhkaHyYiIiYwLTA+PlQBAwMDAwMDBAQEBAUFBQUFBwcGBgcHCwgJCAkICxELDAsLDAsRDxIPDg8SDxsVExMVGx8aGRofJiIiJjAtMD4+VP/CABEIADcANwMBEQACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAAHCAUGAgMJBAH/2gAIAQEAAAAA6EbhhCXG67vML19YkmQU/wCZZ1LPDK2iVwCKVNffyDJ4b0YYAxbf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"
+                                    alt="reviewer-image-2">
+                                <h3 class="text-slate-dark">Milly Cristiana</h3>
+                                <h4 class="text-slate font-weight-normal">Manager of Hp co.</h4>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="feature" class="features mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="features__block text-slate col-12 col-lg-5 mr-lg-5">
+                    <p class="mb-4 heading-big">Seamless, Smart, Efficient</p>
+                    <div class="features__intro">
+                        <h2 class="text-slate-dark heading-bigger mb-4">Unlock the Power of ViennaFlow</h2>
+                    </div>
+                    <p class="mb-sm-4 mb-md-5">
+                        Experience real-time metro insights with ViennaFlow. Navigate the city effortlessly with precise tracking and reliable information at your fingertips.
+                    </p>
+                </div>
+                <div class="features__description col-12 col-lg-6 mt-5 mt-lg-0 ml-lg-5">
+                    <div class="row justify-content-start">
+                        <div class="col-12 p-3 p-lg-3 col-lg-6 pr-lg-5">
+                            <img src="real-time-tracking.png" alt="Real-Time Train Tracking">
+                            <h4 class="text-slate-dark heading-big fw-500">Live Metro Tracking</h4>
+                            <p>Stay updated with real-time train locations on an interactive map.</p>
+                        </div>
+                        <div class="col-12 p-3 p-lg-3 col-lg-6 pr-lg-0">
+                            <img src="nearest-stations.png" alt="Nearest Stations">
+                            <h4 class="text-slate-dark heading-big fw-500">Find Nearby Stations</h4>
+                            <p>Locate the closest metro stations instantly, hassle-free.</p>
+                        </div>
+                        <div class="col-12 p-3 p-lg-3 col-lg-6 pr-lg-5">
+                            <img src="accurate-arrival.png" alt="Accurate Arrival Times">
+                            <h4 class="text-slate-dark heading-big fw-500">Reliable Arrival Times</h4>
+                            <p>Know exactly when your train arrives with precise ETAs.</p>
+                        </div>
+                        <div class="col-12 p-3 p-lg-3 col-lg-6 mb-4 pr-lg-0">
+                            <img src="multi-platform.png" alt="Multi-Platform Support">
+                            <h4 class="text-slate-dark heading-big fw-500">Cross-Platform Accessibility</h4>
+                            <p>Enjoy seamless access on web and mobile devices.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="featureSlider mt-5">
+        <div class="container">
+            <div class="row text-center">
+                <p class="col-12 mb-4 heading-big">Fast, Cheap, Zero Fraud
+                </p>
+                <h2 class="col-12 text-slate-dark heading-bigger mb-4">A scalable Proof of Investment Vehicle</h2>
+
+                <p class="col-12 mb-sm-4 mb-md-5">Easily buy, sell or exchange over 30 different cryptocurrencies. Now
+                    euro
+                    deposits and withdrawn available.
+                </p>
+            </div>
+    </section>
+
+    <section class="betaSection mt-5">
+        <div class="container">
+            <div class="row text-center mb-4">
+                <h2 class="col-12 text-slate-dark heading-bigger mb-4">Be the first to use our Beta! </h2>
+                <p class="col-12 mb-sm-4 mb-md-5">Become part of our ever growing community. </p>
+            </div>
+            <div class="row justify-content-around">
+                <div class="col-12 p-4 p-lg-0 col-lg-4">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNjEgNDAwIj48ZGVmcz48c3R5bGU+LmNscy0ye2ZpbGw6IzFhZTViZX08L3N0eWxlPjwvZGVmcz48ZyBpZD0iTGF5ZXJfMiIgZGF0YS1uYW1lPSJMYXllciAyIj48ZyBpZD0iTGF5ZXJfMS0yIiBkYXRhLW5hbWU9IkxheWVyIDEiPjxwYXRoIGQ9Ik0xMDguOTIgMTI4LjZhMzUuNzQgMzUuNzQgMCAwIDEtMTMuNDItMjcuOTFWNzUuODhoLTE1YTguOTQgOC45NCAwIDAgMS04Ljk0LTguOTRWOS42OEE4Ljk0IDguOTQgMCAwIDEgODAuNTUuNzRIMTkuMjNhOC45MyA4LjkzIDAgMCAwLTguOTMgOC45NHY1Ny4yNmE4LjkzIDguOTMgMCAwIDAgOC45MyA4Ljk0aDE1djI0LjgxYTM1Ljc0IDM1Ljc0IDAgMCAwIDEzLjM4IDI3LjkxbDg5LjI3IDcxLjQgMzAuNjYtMjQuNTJ6TTcxLjYxIDM5MC4zMnYtNDEuOTNhOC45NCA4Ljk0IDAgMCAxIDguOTQtOC45NGgxNlYyOTYuNGEzNS43MiAzNS43MiAwIDAgMSAxMy44NC0yOC4yNGw1Ny41LTQ0LjYtMzEtMjMuNTZMNDkgMjY4LjE2YTM1LjczIDM1LjczIDAgMCAwLTEzLjgxIDI4LjI0djQzLjA1aC0xNmE4LjkzIDguOTMgMCAwIDAtOC45MyA4Ljk0djQxLjkzYTguOTMgOC45MyAwIDAgMCA4LjkzIDguOTRoNjEuMzZhOC45NCA4Ljk0IDAgMCAxLTguOTQtOC45NHoiIGZpbGw9IiNkNGUxZjQiLz48cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik0xMzEgMjEwYTEwIDEwIDAgMCAxLTYuMjUtMi4xOWwtODUuMTItNjguMDhhNDMuOSA0My45IDAgMCAxLTE2LjU1LTM0LjQzVjY3LjgyYTEwIDEwIDAgMCAxIDIwIDB2MzcuNDhhMjQgMjQgMCAwIDAgOSAxOC44MUwxMzEgMTg3LjJsNzguODgtNjMuMDlhMjQgMjQgMCAwIDAgOS0xOC44VjY3LjgyYTEwIDEwIDAgMCAxIDIwIDB2MzcuNDhhNDMuODcgNDMuODcgMCAwIDEtMTYuNTUgMzQuNDNsLTg1LjEyIDY4LjA4QTEwIDEwIDAgMCAxIDEzMSAyMTB6Ii8+PHBhdGggY2xhc3M9ImNscy0yIiBkPSJNMjI5Ljg3IDM0My4xM2ExMCAxMCAwIDAgMS0xMC0xMHYtNDFhMjQuMjIgMjQuMjIgMCAwIDAtOS41LTE5LjE3bC03OS4zMS02MC4zNC03Ny43IDYwLjI4YTIzLjk0IDIzLjk0IDAgMCAwLTkuMzIgMTl2NDEuMjFhMTAgMTAgMCAwIDEtMjAgMHYtNDEuMTlhNDMuODMgNDMuODMgMCAwIDEgMTcuMDYtMzQuODNsODMuNzctNjVhMTAgMTAgMCAwIDEgMTIuMTktLjA2bDg1LjQyIDY1YTQ0LjMyIDQ0LjMyIDAgMCAxIDE3LjM5IDM1LjA4djQxYTEwIDEwIDAgMCAxLTEwIDEweiIvPjxwYXRoIGQ9Ik0yNjEgMTguNTJBMTguNTIgMTguNTIgMCAwIDAgMjQyLjQ4IDBoLTIyNEExOC41MiAxOC41MiAwIDAgMCAwIDE4LjUydjQwQTE4LjUyIDE4LjUyIDAgMCAwIDE4LjUyIDc3aDIyNEExOC41MiAxOC41MiAwIDAgMCAyNjEgNTguNDh6TTI0MiA1N0gyMFYyMGgyMjJ6bTE5IDI4NC41MkExOC41MiAxOC41MiAwIDAgMCAyNDIuNDggMzIzaC0yMjRBMTguNTIgMTguNTIgMCAwIDAgMCAzNDEuNTJ2NDBBMTguNTIgMTguNTIgMCAwIDAgMTguNTIgNDAwaDIyNEExOC41MiAxOC41MiAwIDAgMCAyNjEgMzgxLjQ4ek0yNDIgMzgwSDIwdi0zN2gyMjJ6IiBmaWxsPSIjNmE1MmZkIi8+PC9nPjwvZz48L3N2Zz4="
+                        alt="SEPA Transfers">
+                    <h4 class="text-slate-dark heading-big fw-500">SEPA Transfers
+                    </h4>
+                    <p>Deposit & Withdraw money.</p>
+                </div>
+                <div class="col-12 p-4 p-lg-0 col-lg-4">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzOTkuNjIgNDI0Ij48ZyBkYXRhLW5hbWU9IkxheWVyIDIiPjxnIGRhdGEtbmFtZT0iTGF5ZXIgMSI+PHBhdGggZD0iTTMwIDMxMS45MXYtNDQuNjZhMzMuNDggMzMuNDggMCAwIDEgMzMuNDctMzMuNDdoMTkuMDV2LTIwSDQzLjQ2QTMzLjQ4IDMzLjQ4IDAgMCAwIDEwIDI0Ny4yN3Y0NC42NWEzMy41NiAzMy41NiAwIDAgMCAyMiAzMS40OCAzNC4xMyAzNC4xMyAwIDAgMS0yLTExLjQ5em0zMjYuMTYtOTguMjFoLTM5LjA1djIwaDE2LjA4YTMzLjQ3IDMzLjQ3IDAgMCAxIDMzLjQ3IDMzLjQ3djQ0Ljc2YTM0LjQgMzQuNCAwIDAgMS0yLjQgMTIuNDggMzMuNDIgMzMuNDIgMCAwIDAgMjUuMzctMzIuNDd2LTQ0LjY3YTMzLjQ4IDMzLjQ4IDAgMCAwLTMzLjQ3LTMzLjU3ek0yNjIuODYgNDA0SDIxMy43YTI1IDI1IDAgMCAxLTIwLTQwIDI1IDI1IDAgMCAwIDAgNTBoNDkuMTVhMjQuOTEgMjQuOTEgMCAwIDAgMjAtMTB6IiBmaWxsPSIjZDRlMWY0Ii8+PHBhdGggZD0iTTMzOS4zOCAzMTcuMWExMCAxMCAwIDAgMC0xMCAxMHYyMS41OEEzMC40MyAzMC40MyAwIDAgMSAyOTkgMzc5aC0xOS41NmExMy41MSAxMy41MSAwIDAgMC0yLjkuNCAzNSAzNSAwIDAgMC0zMy42Ny0yNS4zOGgtNDkuMTVhMzUgMzUgMCAwIDAgMCA2OS45NGg0OS4xNWEzNS4xMSAzNS4xMSAwIDAgMCAzMy42Ny0yNS4zNyA5LjE5IDkuMTkgMCAwIDAgMi45LjM5SDI5OWE1MC4zOSA1MC4zOSAwIDAgMCA1MC4zNS01MC4zNXYtMjEuNTRhMTAgMTAgMCAwIDAtMTAtMTB6TTI0Mi44NyA0MDRoLTQ5LjE1YTE1IDE1IDAgMSAxIDAtMzBoNDkuMTVhMTUgMTUgMCAxIDEgMCAzMHpNMTk5LjgxIDBDMTE3LjM5IDAgNTAuMjUgNjcuMTQgNTAuMjUgMTQ5LjU2djY0LjI0YTEwIDEwIDAgMSAwIDIwIDB2LTY0LjI0QzcwLjIzIDc4LjEzIDEyOC4zOCAyMCAxOTkuODEgMjBzMTI5LjU4IDU4LjEzIDEyOS41OCAxMjkuNTZ2NjQuMjRhMTAgMTAgMCAwIDAgMjAgMHYtNjQuMjRDMzQ5LjM3IDY3IDI4Mi4yMyAwIDE5OS44MSAweiIgZmlsbD0iIzZhNTJmZCIvPjxwYXRoIGQ9Ik04Mi41MiAyMDMuNzFINDMuNDZBNDMuNDkgNDMuNDkgMCAwIDAgMCAyNDcuMTZ2NDQuNzZhNDMuNDkgNDMuNDkgMCAwIDAgNDMuNDYgNDMuNDZoMzkuMDZhMTAgMTAgMCAwIDAgMTAtMTBWMjEzLjdhMTAgMTAgMCAwIDAtMTAtMTB6bS0xMCAxMTEuNjlINDMuNDZBMjMuNTIgMjMuNTIgMCAwIDEgMjAgMjkxLjkydi00NC42NWEyMy41MiAyMy41MiAwIDAgMSAyMy40OC0yMy40OGgyOS4wNnptMjgzLjY0LTExMS42OWgtMzkuMDVhMTAgMTAgMCAwIDAtMTAgMTB2MTExLjY4YTEwIDEwIDAgMCAwIDEwIDEwaDM5LjA1YTQzLjQ4IDQzLjQ4IDAgMCAwIDQzLjQ2LTQzLjQ2di00NC42NmE0My41MSA0My41MSAwIDAgMC00My40Ni00My41NnptMjMuNDggODguMjFhMjMuNSAyMy41IDAgMCAxLTIzLjQ4IDIzLjQ4aC0yOS4wN3YtOTEuNzFoMjkuMDdhMjMuNSAyMy41IDAgMCAxIDIzLjQ4IDIzLjQ3eiIgZmlsbD0iIzFhZTViZSIvPjwvZz48L2c+PC9zdmc+"
+                        alt="24/7 Support">
+                    <h4 class="text-slate-dark heading-big fw-500">24/7 Support</h4>
+                    <p>Always here for you.</p>
+                </div>
+                <div class="col-12 p-4 p-lg-0 col-lg-4 mb-4">
+
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzNDUuMDUgNDgzIj48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6I2Q0ZTFmNH0uY2xzLTJ7ZmlsbDojMWFlNWJlfTwvc3R5bGU+PC9kZWZzPjxnIGlkPSJMYXllcl8yIiBkYXRhLW5hbWU9IkxheWVyIDIiPjxnIGlkPSJMYXllcl8xLTIiIGRhdGEtbmFtZT0iTGF5ZXIgMSI+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNMTY4LjIgNDUzLjI0Yy0yNS41NSAwLTQxLjE5LTI4LTI3Ljc3LTQ5Ljc3bDcwLjM0LTExNGE1Mi4xNiA1Mi4xNiAwIDAgMCA3Ljc4LTI3LjQydi0xOS4zMmE2Ljg2IDYuODYgMCAwIDAtNi44Ni02Ljg2IDYuODYgNi44NiAwIDAgMS02Ljg2LTYuODZ2LTExLjY0aC0zMy4zOWE2LjUxIDYuNTEgMCAwIDAtNi41MiA2LjUyVjI0OWE2Ljg2IDYuODYgMCAwIDAgNi44NiA2Ljg2IDYuODYgNi44NiAwIDAgMSA2Ljg1IDYuODZWMjgyYTUyLjE4IDUyLjE4IDAgMCAxLTcuNzggMjcuNDFsLTcwLjM0IDExNGMtMTMuNDEgMjEuNzUgMi4yMiA0OS43NyAyNy43NyA0OS43N2gxNzQuMTRhMzIuMzggMzIuMzggMCAwIDAgMzAuMDYtMjB6Ii8+PHBhdGggY2xhc3M9ImNscy0yIiBkPSJNMjU4LjU5IDI2NS44MWgtODYuNDhhMTAgMTAgMCAwIDEgMC0yMGg4Ni40OGExMCAxMCAwIDEgMSAwIDIweiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTQ3LjQ0IDIwNC4zOWEzMi4yIDMyLjIgMCAwIDEgMC00NS41NkwxNjEuNzYgNDQuNTFhMjEuNzEgMjEuNzEgMCAwIDAgNC44OC03LjVsMi41NS02LjY2TDE0OC44MSAxMCAxMzguNCAzN2EyMS4yNiAyMS4yNiAwIDAgMS00Ljg3IDcuNUwxOS4yMSAxNTguODNhMzIuMjIgMzIuMjIgMCAwIDAgMzYuOSA1MS43NCAzMS42IDMxLjYgMCAwIDEtOC42Ny02LjE4eiIvPjxwYXRoIGNsYXNzPSJjbHMtMiIgZD0iTTE2NS40OSAxMTMuODVhMTAgMTAgMCAwIDEtMS40NC0uMUw4NC43IDEwMi4zMWExMCAxMCAwIDEgMSAyLjg1LTE5Ljc2TDE2Ni45IDk0YTEwIDEwIDAgMCAxLTEuNDEgMTkuODV6bTUyLjc2IDgyLjU0YTQxIDQxIDAgMCAxLTI5LTcwbDIxLjk0LTIxLjk0YTEwIDEwIDAgMCAxIDE0LjExIDBsMjEuOTQgMjEuOTRhNDEgNDEgMCAwIDEtMjkgNzB6bTAtNzAuNzVsLTE0Ljg4IDE0Ljg4YTIxLjA1IDIxLjA1IDAgMSAwIDI5Ljc3IDB6Ii8+PHBhdGggZD0iTTI2OC40NCAzMDQuMTlhNDIuMDkgNDIuMDkgMCAwIDEtNi4xOS0yMi4xOXYtMTYuNWExNi45MSAxNi45MSAwIDAgMCAxNC0xNi41NXYtMjUuMDZjMC05LjEtNy44NS0xNi4zMi0xNy0xNi4zMmgtODcuODFjLTkuMSAwLTE3IDcuMjItMTcgMTYuMzJWMjQ5YTE2LjkzIDE2LjkzIDAgMCAwIDE0IDE2LjU1VjI4MmE0Mi4wOSA0Mi4wOSAwIDAgMS02LjE5IDIyLjE3TDkyIDQxOC4xOEE0Mi41IDQyLjUgMCAwIDAgMTI4LjI4IDQ4M2gxNzQuMTRhNDIuNTQgNDIuNTQgMCAwIDAgMzYuMzEtNjQuODZ6bTUzLjc2IDE0Ny4zMkEyMi4zIDIyLjMgMCAwIDEgMzAyLjQyIDQ2M0gxMjguMjhBMjIuNTUgMjIuNTUgMCAwIDEgMTA5IDQyOC42Mmw3MC4yNC0xMTRBNjEuODkgNjEuODkgMCAwIDAgMTg4LjQgMjgydi0xOS4zMWExNi45MiAxNi45MiAwIDAgMC0xNC0xNi41NXYtMTguNjJoODEuODJ2MTguNjJhMTYuOSAxNi45IDAgMCAwLTE0IDE2LjU1VjI4MmE2MiA2MiAwIDAgMCA5LjE2IDMyLjY1bDcwLjI5IDExNGEyMi4zIDIyLjMgMCAwIDEgLjQ1IDIyLjg5em0tMTMyLjAyLTM1N2wyNy0xMC40YTEwIDEwIDAgMCAwIDMuNDctMTYuMzZMMTU1Ljg2IDIuOTJhMTAgMTAgMCAwIDAtMTYuMzYgMy40N2wtMTAuNDEgMjdhMTEuMzcgMTEuMzcgMCAwIDEtMi42MiA0TDEyLjE1IDE1MS43N2E0Mi4yIDQyLjIgMCAwIDAgNTkuNjggNTkuNjhMMTg2LjE1IDk3LjEzYTExLjU1IDExLjU1IDAgMCAxIDQtMi42MnpNMTcyIDgzTDU3LjcyIDE5Ny4zNGEyMi4yNCAyMi4yNCAwIDEgMS0zMS40NS0zMS40NUwxNDAuNTggNTEuNTdhMzEuMzQgMzEuMzQgMCAwIDAgNy4xNC0xMWw0Ljg5LTEyLjdMMTk1LjcyIDcxIDE4MyA3NS44OUEzMS4yMyAzMS4yMyAwIDAgMCAxNzIgODN6IiBmaWxsPSIjNmE1MmZkIi8+PC9nPjwvZz48L3N2Zz4="
+                        alt="Secure">
+                    <h4 class="text-slate-dark heading-big fw-500">Secure</h4>
+                    <p>Your money is safe.</p>
+                </div>
+
+            </div>
+    </section>
+    <section id="contacts" class="newsletter">
+        <div class="container">
+            <div class="container contact-wrapper text-slate">
+                <div class="row text-center mb-4 pt-5">
+                    <h4 class="col-12 text-slate-dark heading-bigger mb-4">Get The Latest ViennaFlow Updates</h4>
+                    <p class="col-12 mb-sm-4 mb-md-4">And be the first to know when our project launches!</p>
+                </div>
+                <div class="row justify-content-center">
+                    <form action="" class="col-12 col-lg-7">
+                        <div class="contact-container__email-bg">
+                            <input type="email" class="contact-container__email-input col-sm-12 col-lg-8 py-2 py-lg-4"
+                                placeholder="Enter your Email address">
+                        </div>
+                        <input type="submit" class="contact-container__submit col-12 col-lg-3 my-3 my-lg-0 py-lg-4"
+                            value="Send message">
+                    </form>
+                </div>
+                <div class="row text-center mt-lg-4 pb-5">
+                    <p class="col-12 mb-sm-4 mb-md-4">Become part of our ever growing community. <a href="#">Join us on
+                            Discord.</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footerSection">
+        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNjAyLjkgMzM3Ij48cGF0aCBkPSJNMTYwMi45IDkzYy01Mi0xMy4yLTEwMC45LTMzLjgtMTQ4LjItNTguNy0yMS0xMS4xLTQyLjEtMjItNjUuNS0yNy43LTMyLjItNy44LTY0LTYuNi05NS4zIDMuOC0xOC41IDYuMi0zNS40IDE1LjctNTEuOSAyNS45LTE1IDkuMy0zMC4xIDE4LjYtNDUuNCAyNy42LTIyLjMgMTMuMi00Ni43IDE5LjctNzIuNCAyMi0yMS43IDItNDMuMyAyLjgtNjUgMS0yMC40LTEuNy00MC42LTQuNC02MC45LTctMzkuMi01LjItNzguNC0xMS0xMTguMS0xMi0yNC43LS42LTQ5LjMgMS03My4yIDcuOC0yOS4xIDguMi01MC43IDI2LjQtNjguMiA1MC4zLTEyLjIgMTYuNy0yMy4zIDM0LjEtMzYuMiA1MC4zLTIwLjQgMjUuNi00NS43IDQ0LjYtNzYuMSA1Ny0yOC4yIDExLjYtNTcuNiAxNi45LTg3LjkgMTguNC0zMi44IDEuNi02NS40LTEuMi05OC0zLjItMjMuMS0xLjUtNDYuMS0zLTY5LjItNC40LTI0LjgtMS42LTQ5LjYtMi4xLTc0LjQtMi42LTI3LjQtLjYtNTMuMiA1LjgtNzguNSAxNS4zLTM2LjggMTMuOC03Mi4xIDMxLjItMTA4LjYgNDUuNy0zNS4zIDE0LjEtNzEuMyAyNS43LTEwOC4yIDM0LjMtLjUuMi0xLjEuMi0xLjcuMkMwIDE5My42IDAgMTQ3LjMtLjEgNGMwLTMgLjQtNCAzLjgtNCA1MzEuOC4xIDEwNjMuNi4xIDE1OTUuNCAwIDMuMyAwIDMuOC44IDMuOCAzLjktLjEgNjIuMSAwIDI3LjEgMCA4OS4xeiIgZmlsbD0iI2ZmZiIvPjwvc3ZnPg=="
+            alt="Footer background" class="footer-extender">
+
+        <div class="container page-map text-white">
+            <div class="container">
+                <div class="row justify-content-center gap-4">
+                    <div class="footer-column col-12 col-md-4 col-lg-2">
+                        <p class="heading-big">About us</p>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><a class="text-white" href="#">Support center</a></li>
+                            <li class="mb-2"><a class="text-white" href="#">Customer Support</a></li>
+                            <li class="mb-2"><a class="text-white" href="#">About us</a></li>
+                        </ul>
+                    </div>
+            
+                    <div class="footer-column col-12 col-md-4 col-lg-2">
+                        <p class="heading-big">Feature</p>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><a class="text-white" href="#">Support center</a></li>
+                            <li class="mb-2"><a class="text-white" href="#">Customer Support</a></li>
+                            <li class="mb-2"><a class="text-white" href="#">About us</a></li>
+                        </ul>
+                    </div>
+            
+                    <div class="footer-column col-12 col-md-4 col-lg-2">
+                        <p class="heading-big">Contacts</p>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><a class="text-white" href="#">Support center</a></li>
+                            <li class="mb-2"><a class="text-white" href="#">Customer Support</a></li>
+                            <li class="mb-2"><a class="text-white" href="#">About us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center mt-4">
+                    <p id="footer-copyright" class="text-white">&copy; 2024 Your Company. All Rights Reserved.</p>
+                </div>                
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+    <div class="d-none">Icons made by <a href="https://www.flaticon.com/authors/lyolya" title="Lyolya">Lyolya</a> from
+        <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a
+            href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0
+            BY</a></div>
+
+
+    <script src='https://code.jquery.com/jquery-3.3.1.slim.min.js'
+        integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo' crossorigin='anonymous'>
+    </script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js'
+        integrity='sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49' crossorigin='anonymous'>
+    </script>
+    <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js'
+        integrity='sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy' crossorigin='anonymous'>
+    </script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script src="countdown-timer.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
