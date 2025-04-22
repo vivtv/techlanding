@@ -484,7 +484,7 @@ img::selection {
 
 .contact-container__email-bg {
     font-weight: 500;
-    color: rgb(52, 61, 72);
+    color: #2E2E2E;
     background: rgb(243, 242, 250);
     padding: 5px 15px;
     border-style: solid;
@@ -501,7 +501,7 @@ img::selection {
 }
 
 .contact-container__submit {
-    background-color: rgb(106, 82, 253);
+    background-color: #2E2E2E;
     border-radius: 6px;
     color: #fff;
     border: none;
