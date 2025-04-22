@@ -71,9 +71,6 @@ img::selection {
     padding: 0 20px;
 }
 
-.pink-btn:hover {
-    box-shadow: rgba(255, 131, 157, 0.2) -6.691px 7.431px 20px 0px;
-}
 
 .navbar__mobile-bg {
     position: absolute;
@@ -315,11 +312,11 @@ img::selection {
 }
 
 .text-slate {
-    color: rgb(82, 95, 127);
+    color: #2E2E2E;
 }
 
 .text-slate-dark {
-    color: rgb(50, 50, 93);
+    color: #2E2E2E;
 }
 
 .heading-big {

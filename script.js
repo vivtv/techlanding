@@ -291,23 +291,6 @@ document.addEventListener("DOMContentLoaded", function () {
             if (sliderP2) sliderP2.innerText = translations[lang].slider.text2;
         }
 
-        const betaSection = document.querySelector(".betaSection");
-        if (betaSection) {
-            const betaHeading = betaSection.querySelector("h2");
-            const betaSubheading = betaSection.querySelector("p");
-            if (betaHeading) betaHeading.innerText = translations[lang].beta.heading;
-            if (betaSubheading) betaSubheading.innerText = translations[lang].beta.subheading;
-            const betaItems = betaSection.querySelectorAll(".col-lg-4");
-            translations[lang].beta.items.forEach((item, index) => {
-                const betaItem = betaItems[index];
-                if (betaItem) {
-                    const h4 = betaItem.querySelector("h4");
-                    const p = betaItem.querySelector("p");
-                    if (h4) h4.innerText = item.heading;
-                    if (p) p.innerText = item.text;
-                }
-            });
-        }
 
         const contactsSection = document.querySelector("#contacts");
         if (contactsSection) {
