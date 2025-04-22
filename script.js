@@ -2,24 +2,19 @@ $(window).scroll(function () {
     if ($(this).scrollTop() > 100) {
         $('#header').addClass('header-scrolled');
         $('#header a').addClass('nav-link-dark');
-        $('#headerImg').attr("src", "images/logo-bfece249803f3d440ef27a70c60f54f1.png");
+        $('#headerImg').attr("src", "images/logoblack.png");
         $('.mobile-nav-toggle>span').addClass('mobile-nav-toggle--span');
         $('.mobile-nav-toggle').addClass('mobile-nav-toggle--scrolled');
 
     } else {
         $('#header').removeClass('header-scrolled');
         $('#header a').removeClass('nav-link-dark');
-        $('#headerImg').attr("src", "images/logo-white-512a641e90600644922a2327e20c5067.png");
+        $('#headerImg').attr("src", "images/logowhite.png");
         $('.mobile-nav-toggle span').removeClass('mobile-nav-toggle--span');
         $('.mobile-nav-toggle').removeClass('mobile-nav-toggle--scrolled');
     }
 });
 
-// if ($(window).scrollTop() > 100) {
-//     $('#header').addClass('header-scrolled');
-//     $('#header a').addClass('nav-link-dark');
-//     $('#headerImg').attr("src", "images/logo-bfece249803f3d440ef27a70c60f54f1.png");
-// }
 
 if ($('.main-nav').length && $('.main-nav').attr('display') != 'none') {
     var $mobile_nav = $('.main-nav').clone().prop({
@@ -79,36 +74,6 @@ $(document).ready(function () {
     });
 
 });
-// Set the date we're counting down to
-// var countDownDate = new Date();
-// countDownDate.setDate(countDownDate.getDate() + 10);
-
-// // Update the count down every 1 second
-// var x = setInterval(function () {
-
-//     // Get today's date and time
-//     var now = new Date().getTime();
-
-//     // Find the distance between now and the count down date
-//     var distance = countDownDate - now;
-
-//     // Time calculations for days, hours, minutes and seconds
-//     var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-//     var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-//     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-//     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-//     $(".sale-timer__days").prepend(days);
-//     $(".sale-timer__hours").prepend(hours);
-//     $(".sale-timer__minutes").prepend(minutes);
-//     $(".sale-timer__seconds").prepend(seconds);
-
-//     // If the count down is over, write some text 
-//     if (distance < 0) {
-//         clearInterval(x);
-//         document.getElementById("countdownSale").innerHTML = "EXPIRED";
-//     }
-// }, 1000);
 
 
 $(document).ready(function () {
@@ -128,23 +93,6 @@ document.addEventListener("DOMContentLoaded", function () {
             heading: "Smart Metro Tracking for Smarter Travel in Vienna.",
             paragraph: "Get live metro updates, arrival times, and route details instantly, ensuring a seamless travel experience.",
             button: "Learn More",
-            testimonials: [
-                {
-                    quote: "Impressed with master class support of the team and really look forward for the future.",
-                    name: "Saul Goodman",
-                    title: "Ceo & Founder"
-                },
-                {
-                    quote: "Best working experience with this amazing team & in future, we want to work together",
-                    name: "Saul Goodman",
-                    title: "Ceo & Founder"
-                },
-                {
-                    quote: "Impressed with master class support of the team and really look forward for the future.",
-                    name: "Milly Cristiana",
-                    title: "Manager of Hp co."
-                }
-            ],
             feature: {
                 block: {
                     text1: "Seamless, Smart, Efficient",
@@ -171,34 +119,17 @@ document.addEventListener("DOMContentLoaded", function () {
                 ]
             },
             slider: {
-                text1: "Fast, Cheap, Zero Fraud",
-                heading: "A scalable Proof of Investment Vehicle",
-                text2: "Easily buy, sell or exchange over 30 different cryptocurrencies. Now euro deposits and withdrawn available."
+                text1: "Live, Smart, Reliable",
+                heading: "A Real-Time Proof of Transit Intelligence",
+                text2: "Easily track live metro movements across the city. Get real-time updates, smarter routes, and smoother commutes."
             },
-            beta: {
-                heading: "Be the first to use our Beta!",
-                subheading: "Become part of our ever growing community.",
-                items: [
-                    {
-                        heading: "SEPA Transfers",
-                        text: "Deposit & Withdraw money."
-                    },
-                    {
-                        heading: "24/7 Support",
-                        text: "Always here for you."
-                    },
-                    {
-                        heading: "Secure",
-                        text: "Your money is safe."
-                    }
-                ]
-            },
+            
             contacts: {
                 heading: "Get The Latest ViennaFlow Updates",
                 subheading: "And be the first to know when our project launches!",
                 emailPlaceholder: "Enter your Email address",
-                button: "Send message",
-                bottomText: "Become part of our ever growing community. Join us on Discord."
+                button: "Subscribe",
+                bottomText: "Become part of our ever growing community."
             },
             footer: {
                 columns: [
@@ -227,30 +158,13 @@ document.addEventListener("DOMContentLoaded", function () {
                         ]
                     }
                 ],
-                copyright: "&copy; 2024 Your Company. All Rights Reserved."
+                copyright: "&copy; 2025 ViennaFlow. All Rights Reserved."
             }
         },
         de: {
             heading: "Intelligente Metro-Verfolgung für eine intelligentere Reise in Wien.",
             paragraph: "Erhalten Sie Live-Metro-Updates, Ankunftszeiten und Routendetails sofort für eine nahtlose Reiseerfahrung.",
             button: "Mehr erfahren",
-            testimonials: [
-                {
-                    quote: "Beeindruckt von der erstklassigen Unterstützung des Teams und freut sich sehr auf die Zukunft.",
-                    name: "Saul Goodman",
-                    title: "CEO & Gründer"
-                },
-                {
-                    quote: "Beste Arbeitserfahrung mit diesem erstaunlichen Team & in Zukunft wollen wir zusammenarbeiten",
-                    name: "Saul Goodman",
-                    title: "CEO & Gründer"
-                },
-                {
-                    quote: "Beeindruckt von der erstklassigen Unterstützung des Teams und freut sich sehr auf die Zukunft.",
-                    name: "Milly Cristiana",
-                    title: "Managerin bei Hp co."
-                }
-            ],
             feature: {
                 block: {
                     text1: "Nahtlos, Intelligent, Effizient",
@@ -281,30 +195,13 @@ document.addEventListener("DOMContentLoaded", function () {
                 heading: "Ein skalierbares Investitionsfahrzeug",
                 text2: "Kaufen, verkaufen oder tauschen Sie mühelos über 30 verschiedene Kryptowährungen. Jetzt sind Ein- und Auszahlungen in Euro verfügbar."
             },
-            beta: {
-                heading: "Seien Sie der Erste, der unsere Beta nutzt!",
-                subheading: "Werden Sie Teil unserer stetig wachsenden Community.",
-                items: [
-                    {
-                        heading: "SEPA Transfers",
-                        text: "Geld einzahlen & abheben."
-                    },
-                    {
-                        heading: "24/7 Support",
-                        text: "Wir sind immer für Sie da."
-                    },
-                    {
-                        heading: "Secure",
-                        text: "Ihr Geld ist sicher."
-                    }
-                ]
-            },
+    
             contacts: {
                 heading: "Erhalten Sie die neuesten ViennaFlow-Updates",
                 subheading: "Und seien Sie der Erste, der von unserem Projektstart erfährt!",
                 emailPlaceholder: "Geben Sie Ihre E-Mail-Adresse ein",
                 button: "Nachricht senden",
-                bottomText: "Werden Sie Teil unserer stetig wachsenden Community. Treten Sie unserem Discord bei."
+                bottomText: "Werden Sie Teil unserer stetig wachsenden Community."
             },
             footer: {
                 columns: [
