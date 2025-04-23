@@ -134,11 +134,11 @@ document.addEventListener("DOMContentLoaded", function () {
             footer: {
                 columns: [
                     {
-                        heading: "About us",
+                        heading: "Privacy&Policy",
                         items: [
-                            "Support center",
-                            "Customer Support",
-                            "About us"
+                            "Privacy Policy",
+                            "Terms of Service",
+                            "Customer Support"
                         ]
                     },
                     {
